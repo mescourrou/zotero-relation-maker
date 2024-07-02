@@ -109,7 +109,6 @@ def main():
     if not load_connection_data():
         print("Not possible to load connection data")
         return
-    print(CONNECTION_DATA)
     
     print("Zotero connection...")
     zot = zotero.Zotero(**CONNECTION_DATA)
